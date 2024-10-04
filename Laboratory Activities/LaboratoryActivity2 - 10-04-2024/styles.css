@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, #cce7ff 0%, #e6f2ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.vision-board {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+}
+
+h1 {
+    color: #1a75ff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.reminder {
+    background-color: #99ccff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.image-grid div {
+    background-color: #b3d9ff;
+    border: 2px solid #004080;
+    border-radius: 10px;
+    flex: 1;
+    height: 120px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.image-grid div:hover {
+    transform: scale(1.05);
+}
+
+.image-grid div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.image-grid div img:hover {
+    transform: scale(1.05);
+}
+
+.content-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.goals {
+    background-color: #b3d9ff;
+    border: 2px solid #004080;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    color: #004080;
+    flex: 1;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.goals ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.goals li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.goals li:hover {
+    transform: scale(1.05);
+}
+
+.goals li:before {
+    content: "✔";
+    margin-right: 10px;
+    color: #004080;
+}
+
+.large-image {
+    background-color: #b3d9ff;
+    border: 2px solid #004080;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.large-image:hover {
+    transform: scale(1.05);
+}
+
+.large-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.large-image img:hover {
+    transform: scale(1.05);
+}
